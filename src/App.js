@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { MemoHook } from "./Components/MemoHook";
+import { CallbackHook } from "./Components/CallbackHook";
+// import { MemoHook } from "./Components/MemoHook";
 
 // import { Memorize } from "./Components/Memorize";
 // import { FormWithCustomHook } from "./Components/FormWithCustomHook";
@@ -8,7 +9,7 @@ import { MemoHook } from "./Components/MemoHook";
 function App() {
   return (
     <>
-      <MemoHook />
+      <CallbackHook />
     </>
   );
 }
