@@ -8,6 +8,11 @@ export const useFetch = (url) => {
   });
 
   useEffect(async () => {
+    setState({
+      data: null,
+      loading: true,
+      error: null,
+    });
     try {
       const response = await fetch(url);
 
