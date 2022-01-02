@@ -1,5 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
-import { CallbackHook } from "./Components/CallbackHook";
+import TodoApp from "./Components/useReducer/TodoApp";
+// import { Padre } from "./Components/Padre";
+// import { CallbackHook } from "./Components/CallbackHook";
 // import { MemoHook } from "./Components/MemoHook";
 
 // import { Memorize } from "./Components/Memorize";
@@ -9,7 +11,7 @@ import { CallbackHook } from "./Components/CallbackHook";
 function App() {
   return (
     <>
-      <CallbackHook />
+      <TodoApp />
     </>
   );
 }
